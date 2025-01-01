@@ -1,0 +1,46 @@
+.consent-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 91, 150, 0.8); /* Полупрозрачный синий фон */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    z-index: 9999;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+    border-top: 3px solid #FFD700; /* Добавлен золотистый акцент сверху */
+    backdrop-filter: blur(10px); /* Размытие фона за плашкой */
+  }
+  
+  .consent-content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .discount-info {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #FFD700;
+  }
+  
+  button {
+    background-color: #FFD700;
+    color: #005B96;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #f2c400;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  

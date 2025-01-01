@@ -1,0 +1,65 @@
+.advantages {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #005B96; /* Цвет фона для секции */
+    position: relative;
+    overflow: hidden;
+    color: #fff; /* Белый цвет для текста */
+    height: 100vh; /* Задаем высоту секции на весь экран */
+}
+
+.advantages h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #FFD700; /* Золотой цвет для заголовка */
+}
+
+.advantages-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.advantage-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 300px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #333; /* Цвет текста в карточке */
+}
+
+.advantage-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.advantage-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #FFD700; /* Желтая иконка */
+}
+
+.advantage-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #005B96; /* Цвет заголовка карточки */
+}
+
+.advantage-card p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Анимация волн на фоне */
+@keyframes wave-animation {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 1000px 0;
+    }
+}
